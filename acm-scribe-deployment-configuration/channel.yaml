@@ -5,6 +5,4 @@ metadata:
   namespace: scribe-system
 spec:
   type: GitHub
-  pathname: https://github.com/redhat-et/scribe-poc.git
-  secretRef:
-    name: github-gitops-clusters
+  pathname: https://github.com/cooktheryan/twitch-scribe-rhacm.git

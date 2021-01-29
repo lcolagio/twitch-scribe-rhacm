@@ -6,7 +6,6 @@ metadata:
   namespace: dokuwiki 
 spec:
   rsync:
-    serviceType: LoadBalancer
     copyMethod: Snapshot 
     storageClassName: gp2-csi
     volumeSnapshotClassName: gp2-csi

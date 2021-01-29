@@ -7,9 +7,9 @@ metadata:
 spec:
   sourcePVC: dokuwiki
   trigger:
-    schedule: "*/2 * * * *"
+    schedule: "*/3 * * * *"
   rsync:
     sshKeys: scribe-rsync-dest-src-database-destination
     address: a667eb4af9bec45dc8ec6985ef8c6f4c-0a58e8e66513b6ed.elb.us-east-1.amazonaws.com
     copyMethod: Snapshot
-    volumeSnapshotClassName: ocs-storagecluster-rbdplugin-snapclass
+    volumeSnapshotClassName: gp2-csi
