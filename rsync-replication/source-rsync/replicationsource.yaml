@@ -10,6 +10,6 @@ spec:
     schedule: "*/3 * * * *"
   rsync:
     sshKeys: scribe-rsync-dest-src-database-destination
-    address: a667eb4af9bec45dc8ec6985ef8c6f4c-0a58e8e66513b6ed.elb.us-east-1.amazonaws.com
+    address: 172.32.106.72
     copyMethod: Snapshot
     volumeSnapshotClassName: gp2-csi
