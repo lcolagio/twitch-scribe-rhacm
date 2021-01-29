@@ -5,41 +5,6 @@ data:
   source.pub: c3NoLXJzYSBBQUFBQjNOemFDMXljMkVBQUFBREFRQUJBQUFDQVFETW1jYnBEUElWQkdVK2lsdlc4ZlNYY1pHWWwzOVFKSFBLMnN6L25kdjJ4SjYyZEFZSllpRzM2TUNTSlRuSzhXdi9JOFZOU0hJaTN2UkFqb1RqR2ljTjR6eFhocEN2cDFQeXJVSXlMUE9IUjJ0UUNwYVNKaDFxN0cwOVhsRkplQk40L0gyQ2d0dk54RmpiWDlhdHA4SHdUaSthU1ppWkxqWHVCK3ViYmh3VGNXZGhsaE1hNzZycWNWQXFWQ1V0V1ZxTWE4YzJGZjJOWWxOUWJxY1l2dFN5Vzc1UC9KL09NMzZvY3FZTjJ3MzY4cjJaaFZBamt0WUZEcWJ5MURCSS8wVmF5bWdnMmthS2tSSU9LUDdvb1BZUFZQbzlvY3dVLzZEa3R6YVdPMnRNbVFtVUI0Nk4rTUF4TXljME9nNFVCVmZKSmZJOXNwdjJTRXRJQnBlK3BuQ2hNRFZ3ODQycm44RmF4UjFtUXlEbTVHN0lnTWptR0tIb1NKNDUrcTRVMUZaZ0N5cWRqRXFxLzNIOXhzeC9MS0t2SDNVMVhhZFJqUlhuS29QSU1KWVJnNisxVHkvd2x1VURhWG9vYVlPM1N6Z0FxM3RyVnpYS3dCaHd4Zy9tNTQ1QmJpQTc2T0xYYzBVTWp1NlN5bkwrTHh1bjd5MVRDSkMvN0Q0TWE3ZkkxQVdTWHl0alRuR0hXRVplVU5YRTZsUGQ5YjQrYndEbVhlT0hJTWdqa0RNakgyVTYrVUJ2ZnJqM1RkQnQyWUdTOHp1bDRoSUZQOXorWVZ2NXJQMWNMQTF4aFZ0RTgwUlhBYkQwNFVEdmxjdW92V0s3VWFhUm1Obk9IRzI2U3d0U3hJV0VHRFhFTzBWT0FCZUZERlJmQTlKaDZjTXNrbTVwakg0a0pFakVYR3g3ZHc9PSAK
 kind: Secret
 metadata:
-  creationTimestamp: "2021-01-29T19:46:19Z"
-  managedFields:
-  - apiVersion: v1
-    fieldsType: FieldsV1
-    fieldsV1:
-      f:data:
-        .: {}
-        f:destination.pub: {}
-        f:source: {}
-        f:source.pub: {}
-      f:metadata:
-        f:ownerReferences:
-          .: {}
-          k:{"uid":"9bc413c3-fdb5-4537-bea8-e526e01a636e"}:
-            .: {}
-            f:apiVersion: {}
-            f:blockOwnerDeletion: {}
-            f:controller: {}
-            f:kind: {}
-            f:name: {}
-            f:uid: {}
-      f:type: {}
-    manager: manager
-    operation: Update
-    time: "2021-01-29T19:46:19Z"
   name: scribe-rsync-dest-src-database-destination
   namespace: dokuwiki
-  ownerReferences:
-  - apiVersion: scribe.backube/v1alpha1
-    blockOwnerDeletion: true
-    controller: true
-    kind: ReplicationDestination
-    name: database-destination
-    uid: 9bc413c3-fdb5-4537-bea8-e526e01a636e
-  resourceVersion: "65044"
-  selfLink: /api/v1/namespaces/dokuwiki/secrets/scribe-rsync-dest-src-database-destination
-  uid: f1f15f01-d684-460c-b224-958f9ba53dc1
 type: Opaque
