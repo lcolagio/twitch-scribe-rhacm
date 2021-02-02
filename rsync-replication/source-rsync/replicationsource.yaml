@@ -7,7 +7,7 @@ metadata:
 spec:
   sourcePVC: dokuwiki
   trigger:
-    schedule: "*/3 * * * *"
+    schedule: "*/2 * * * *"
   rsync:
     sshKeys: scribe-rsync-dest-src-database-destination
     address: 172.32.234.109
