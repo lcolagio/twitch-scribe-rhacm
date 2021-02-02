@@ -10,6 +10,6 @@ spec:
     schedule: "*/3 * * * *"
   rsync:
     sshKeys: scribe-rsync-dest-src-database-destination
-    address: 172.32.106.72
+    address: 172.32.234.109
     copyMethod: Snapshot
     volumeSnapshotClassName: gp2-csi
