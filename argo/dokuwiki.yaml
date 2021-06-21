@@ -11,7 +11,7 @@ spec:
   source:
     directory:
       recurse: true
-    path: dokuwiki.
+    path: dokuwiki
     repoURL: https://github.com/lcolagio/twitch-scribe-rhacm.git
     targetRevision: HEAD
   syncPolicy:
